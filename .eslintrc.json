@@ -1,3 +1,29 @@
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "simple-import-sort"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "require-await": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/default-param-last": "off",
+    "import/prefer-default-export": "off",
+    "import/order": "off",
+    "sonarjs/no-duplicate-string": "off",
+    "import/extensions": "off",
+    "react/prop-types": "off",
+    "prefer-promise-reject-errors": "off",
+    "consistent-return": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "no-param-reassign": [2, { "props": false }]
+  }
 }

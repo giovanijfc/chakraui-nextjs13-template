@@ -1,0 +1,57 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M703.488 529.408c-2.048-79.872 40.96-153.6 111.616-190.464-44.032-60.416-113.664-97.28-189.44-99.328-78.848-6.144-165.888 46.080-197.632 46.080-33.792 0-110.592-44.032-171.008-44.032-124.928 2.048-257.024 99.328-257.024 297.984 1.024 61.44 11.264 122.88 31.744 181.248 29.696 81.92 132.096 283.648 239.616 280.576 56.32-2.048 96.256-39.936 169.984-39.936 70.656 0 107.52 39.936 171.008 39.936 108.544-2.048 201.728-185.344 229.376-267.264-83.968-33.792-138.24-114.688-138.24-204.8v0zM576.512 161.792c39.936-44.032 59.392-102.4 54.272-161.792-58.368 6.144-112.64 33.792-151.552 77.824-40.96 43.008-61.44 101.376-57.344 160.768 60.416 1.024 118.784-27.648 154.624-76.8z"
+        ],
+        "width": 870,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": ["apple"],
+        "defaultCode": 59392,
+        "grid": 0,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "id": 1,
+        "order": 1797,
+        "ligatures": "",
+        "prevSize": 32,
+        "code": 59392,
+        "name": "apple"
+      },
+      "setIdx": 0,
+      "setId": 12,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "metadata": { "name": "icomoon" },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": { "fontFamily": "icomoon" },
+      "metrics": { "emSize": 1024, "baseline": 15 },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
